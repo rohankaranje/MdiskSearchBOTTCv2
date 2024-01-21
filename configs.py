@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "133273016"))
-    API_HASH = os.getenv("API_HASH", "68e791e61610028748b0a53ae86a661a12")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5912048119:AAHrcUjE38mYG3noFRw5B5GQosaSJ6Fa7-x1s")
+    API_ID = int(os.getenv("API_ID", "27996421"))
+    API_HASH = os.getenv("API_HASH", "5f5cb6a13ecff3d90e1ec73dc366e26d")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6824141907:AAFtegyW9i7vGa5zzYHTKFHyhlCCauhp8Ao")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKkBu09s73VLGQQnQZp81QLu_hvbfV9yEuhmccZdjyWtbbXB-m2ujGrZ8HY9RymfBfBDrrZqChCCLSXWhZ54D8FCVpkiAO1GI-c85ZDExvGUu_3g-QdoqL7Kf-K6tK4I-u8CmeNmQKXLO-jPS89BphFytogqFKYCNvv7Kw2WOlbcEzsijo5xFYFWmVsccKPGdgGL9xvWTB-51uH36joGzuBnT6TGMftMGmUK5DQQF5i6Lk2_0EknKBN5Q3YpP_JNiOl9PntcvYHPUkgecupU2m5DKi5TMwHgI5ohFMezIrHH0NNG63AHYf35UGSienCWbwG8Csn8VceLQMnXrKZcRbIy-McIY=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQAkbNT0xbV26R1BLBgZTqGVs-CNOcs2ED50VFt7O0_uyTqscNGSJftkFNdCftC8CrUxDg2-C0X3BBH51pTffbxadk39XJtsx3ZHMNssrePl9gjmvLOrIVEtU0XhONQ8Ro1IetShd8fdyZ52wYtxXe4SQFgD1aND7rvoe_6MbGkmcSBUd5ojeMOlxSfj69xm3RifKiftk0Sq1g6Ed7LzwXdlxS3epUKHj7Z9OOVcRLW6rltrtKRKSgfgRvAh5JhTEvLss6Azwzjvn4matDMN_c9RNyXe0GPyzmJDnY8tB-QiqBXiqBig3lFxzVuPvYX15oX9YWQEW0KrMESYDW9ETNbGAAAAAXobaIMA")
 #   Channel id where your posts are stored.
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-100180838783308")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001947378554")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "VegamoviesZbot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "6343583875"))
 #   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "lazydeveloperr")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "LazyDeveloper")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
@@ -31,14 +31,14 @@ Just Type Movie name in pm or group 🦋**""" )
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001765107260")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lazy:lazy@lzyxdev786.lpvunddl5.mongodb.net/eieokxk?redddltryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001782419622"))
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://AniBot:AniBot@cluster0.reyy4be.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002039398449"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "LazyDeveloper")
-    FORCE_SUB = os.getenv("FORCE_SUB", "True")
+    FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 120))
-    MDISK_API = os.getenv("MDISK_API", "W4VnYiwHUevmAutlFmkW")
+    MDISK_API = os.getenv("MDISK_API", "")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
